@@ -1,0 +1,18 @@
+actually we have another here to cover that is : 
+
+when a developer is creating some software definitely there will be some versioin changes in the software regulary .
+
+fo that to create such version updates , in gereal it is tags : 
+    so lets create v1.0 and push this the git hub repository
+    for that we have a seperate commad ----> 
+
+        git tag -a (any_veraion name) -m "(a vaild message)
+        git status 
+        git add file_name
+        git commit -m "(any vaild message)"
+        git push origin main
+        git push origin (version name given)
+
+        with thid its like given a type of 1st version .
+
+
