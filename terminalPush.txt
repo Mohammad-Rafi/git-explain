@@ -1,0 +1,16 @@
+to push any code form the ide / code editor 
+
+open terminal
+
+check status 
+
+git init (just incase to check)
+
+git add file_name  --> made no changes in the existing files then go for a particluar file_name
+    orelse : incase its a new file completely then go for --> git add .    ---> this add all the files from working directory to staging.
+
+git status (just to check which all the file names uploaded)
+
+git commit -m "(any valid message)"   --> staged 
+
+git push origin main   --> pushed to the brain main
