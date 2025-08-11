@@ -1,0 +1,32 @@
+old ---> git checkout (branch-name)
+new ---> git switch (branch-name)
+
+the abovea re to switch from one branch to another;
+
+the below is how to create brach :
+
+    git checkout -b (branch-name) 
+    git switch   -c  (brach-name)   --create (branch_name)
+
+
+this branching helps when there is alot bug issue or any faiure of work orelse the code you just wrote became a unexpected outtput so dont want to pulish to people so you think to exteriment that such cases or in any other ways a great way to use.
+
+
+to switch between be=ranches use command :
+    git switch (branch_name) 
+    git checkout (branch_name)
+
+
+to how many branches we have created use command :
+    git branch          ----> local branches shows
+    git branch --all   -----> local and  remote branches shows
+
+
+to switch between when ther are number of brances , suppose i want a open a    previously closed brach for that the command is :
+    git switch -
+    
+
+if incase we want to delete branch with the command:
+    git branch -d (branch name)     : -d ---> is for deleting a branch.
+
+    
