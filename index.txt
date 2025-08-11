@@ -1,0 +1,46 @@
+git --version   : to know the version of git installed
+
+git init -b (branchName) : this is command lets to know the loacl repo to the particular branch name {this is known as staging file --> the full file we created in local system is a working directory0}
+
+|---------------------------------------------------------------------|                           
+|                                                                     | 
+|       :: this is a floder in PC                                     |
+|                                                                     |
+|       this is a local folder created                                |
+|       for initially writing any code            /------------------------->  when we give the command git init -b (branch name) this part of local git repository created with two sections 1. STAGING  2. COMMITING                    |
+|       before pushing it to git hub.            /                    |    
+|                                               /                     |
+|                  |-----------------------------------------------|  |
+|                  |                local git repo                 |  |       
+|  |----------|    | |--------------------|   |------------------| |  |
+|  |  local   |    | |    git. "staging"  |   |    "commiting"   | |  |
+|  |  working |    | |    repo before     |   |   every commit   | |  |
+|  |directory |--->| |    commiting to    |-->| history info is  |-|--|----------->
+|  |          |    | |    git hub         |   |    saved here    | |  |
+|  |----------|    | |--------------------|   |------------------| |  |
+|       \          |-----------------------------------------------|  |
+|        \                                                            |
+|---------\-----------------------------------------------------------|
+           \
+            \--------------------> this the local file we created to make the codes.
+
+
+git log     : this lets you explore the commit history of your repository in a detailed and customizable way.
+        --> here if we have commited a file we get see a 7 hexa-decimal number actually this is 40 charecter, this changes when ever there is new cahnge made so to commit new change add it to staging area again (add with file_name again) and commmit with a message.
+
+
+git add <file_name>   : to save a paricular file into the "staging folder" in the local rep before pushing it to the git hub. (local directory to staged folder)
+
+git rm --cached     : this command will unstage the file , that means it removes from the staged folder. (simple terms it will be removed from there)
+
+git commit -m "(any logical message)"   : this is will commit the code or file into the staging folder.
+
+git -a -m "(any logical message)"   : here the -a is used for skipping the staging and it will directly be commited . (Stages all modified tracked files )
+
+git diff    : this is when we want to know the modifications are being made in the "working directory" before staging
+
+git diff --staged    : this is when we want to know the modifications are being made in the "staged directory" after staging
+
+git add .   : this to add an entire files section into the staging directory.
+
+
