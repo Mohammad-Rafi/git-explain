@@ -15,4 +15,16 @@ fo that to create such version updates , in gereal it is tags :
 
         with thid its like given a type of 1st version .
 
+now add another version this with adding a an add tag command --->
+    sorry i forgot to mention in v1.0 before adding we need to add --> git tag -a (version name) -m "(valid message)"   ----> so developers also will update things aaccording to versioins.
+    then :  (this is second version)
+    
+        git tag -a (any_veraion name) -m "(a vaild message)
+        git status 
+        git add file_name
+        git commit -m "(any vaild message)"
+        git push origin main
+        git push origin (version name given)
+
+
 
