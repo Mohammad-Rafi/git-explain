@@ -1,0 +1,24 @@
+in order to access the repo from others : image like we are set into a team work :
+
+then we will have access to the work to make changes or do individual work:
+
+first go the repo that is avalible or given 
+>> copy the https or SSH link 
+>> open git bash 
+>> be in folder that you choose that repo to lie in your local by : cd file_name
+>> git clone (paste the link) --> it will start linking.
+>> it will downloaded and open with your ide / code editor .
+
+
+now you have the access to the repo now you can edit or make any chaanges or include new features and similarly from working ddirectory to staging and to commmiting and finally to repo.
+
+
+some simple commands :
+
+
+git log --pretty=oneline    ----> this will give a very list of all the log (hsitory of commits) details
+
+git show (given version number)  ---> this shows a particular version tag details
+
+
+
