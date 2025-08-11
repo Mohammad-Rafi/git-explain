@@ -9,3 +9,8 @@ the below is how to create brach :
 
 
 this branching helps when there is alot bug issue or any faiure of work orelse the code you just wrote became a unexpected outtput so dont want to pulish to people so you think to exteriment that such cases or in any other ways a great way to use.
+
+
+to switch between be=ranches use command :
+    git switch (branch_name) 
+    git checkout (branch_name)
