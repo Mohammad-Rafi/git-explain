@@ -1,0 +1,11 @@
+old ---> git checkout (branch-name)
+new ---> git switch (branch-name)
+
+the abovea re to switch from one branch to another;
+
+the below is how to create brach :
+
+    git checkout -b (branch-name) 
+
+
+this branching helps when there is alot bug issue or any faiure of work orelse the code you just wrote became a unexpected outtput so dont want to pulish to people so you think to exteriment that such cases or in any other ways a great way to use.
