@@ -1,0 +1,74 @@
+first create folder in the local repo with the same name that you wish to have in git hub repo.
+
+open git bash
+if you have already created folder then dont do this or you the properfile type as below:
+
+>>>
+
+cd file_name     --> git git-explain (name same as in github)
+
+--check : ls -a  or ls ----
+
+git init
+
+git add file name   --> git add git-explain 
+
+git commit -m "(any valid message)"     --> git commit -m "Initial push to github from local repo"
+
+git config --global user.email "example@gmail.com"  --> git config --global user.email "mohammadrafai.1d@gamil.com"
+
+git config --global user.name "your_name"   -->     git config --global user.name "Mohammad-Rafi" 
+
+---- check status :  git status -----
+
+repeat --->  git add file_name
+             git commit -m "(any valid message)"
+
+git branch -M main      -->     git branch -M main
+
+--- exit the current file :  cd  ---
+
+--- check for ls -a  : we are out of folder and searching for .ssh ---
+
+--- now get into folder after checking .ssh if not found enter as below --> to enter into folder again type cd file_name ---
+
+cd file_name
+
+ssh-keygen -o   --->  if already found before not required to do agian this step.(only this)
+
+    cd  (by this input we are out of folder repo)
+
+    ls -a (in this case we are trying to open .ssh folder to get ssh key)
+
+    --- enter into .ssh folder ---
+
+    cd .ssh  (we enter the ssh file by giving this input)
+
+    ls -a    (we did this to know the exact ssh key id with pub extention i.e .pub)
+
+    cat (somecode-id).pu    ---> copy the code that given by the bash and paste it in the ssh keys in settings og github.
+
+    cd
+
+    cd folder_name   --> we agian enter into the git hub local repo
+
+    ls -a (to check the inside main content to ensue just incase)  
+
+    git remote add origin (copy ssh link from code site of the named repo)
+
+    git push -u origin main
+
+
+    SUCCESSFULLy commited to the git hub from local repository through gitbash..🥹
+
+
+
+
+
+
+
+
+
+
+
+
